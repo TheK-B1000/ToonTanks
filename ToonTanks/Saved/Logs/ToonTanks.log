@@ -670,3 +670,115 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.25-02.19.17:622][532]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 138
 [2020.06.25-02.19.18:708][561]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 128
 [2020.06.25-02.19.22:257][599]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 118
+[2020.06.25-02.19.40:169][800]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 108
+[2020.06.25-02.19.43:849][838]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 98
+[2020.06.25-02.19.49:913][965]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 88
+[2020.06.25-02.20.03:518][228]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 78
+[2020.06.25-02.20.04:764][242]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 68
+[2020.06.25-02.20.07:621][290]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 58
+[2020.06.25-02.20.15:896][466]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 48
+[2020.06.25-02.20.16:844][478]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 38
+[2020.06.25-02.20.19:434][509]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-02.20.21:881][549]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 28
+[2020.06.25-02.20.28:360][693]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 18
+[2020.06.25-02.20.30:911][742]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 11
+[2020.06.25-02.20.37:946][894]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 7
+[2020.06.25-02.20.41:144][954]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 4
+[2020.06.25-02.20.42:842][974]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.06.25-02.20.44:622][999]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.06.25-02.22.03:201][503]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.25-02.22.03:339][503]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.06.25-02.22.03:340][503]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.06.25-02.22.03:451][503]LogSlate: Took 0.001037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.25-02.24.32:200][295]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.25-02.24.54:471][ 32]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-02.25.35:864][552]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" -game -rocket -progress
+[2020.06.25-02.25.36:486][552]Discovering modules, targets and source code for project...
+[2020.06.25-02.25.41:794][552]Binding IntelliSense data...
+[2020.06.25-02.25.51:002][552]Binding IntelliSense data... 100%
+[2020.06.25-02.25.51:008][552]Writing project files...
+[2020.06.25-02.26.01:501][552]Writing project files... 67%
+[2020.06.25-02.26.01:501][552]Writing project files... 100%
+[2020.06.25-02.26.01:607][552]LogHotReload: Recompiling module ToonTanks...
+[2020.06.25-02.26.01:619][552]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.06.25-02.26.01:642][552]Candidate modules for hot reload:
+[2020.06.25-02.26.01:642][552]  ToonTanks
+[2020.06.25-02.26.01:644][552]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3042 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-02.28.08:401][552]Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+Creating makefile for ToonTanksEditor (no existing makefile)
+Parsing headers for ToonTanksEditor
+  Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for ToonTanksEditor in 15.0429991 seconds
+Building ToonTanksEditor...
+Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 4 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] ToonTanks.init.gen.cpp
+  [4/9] ToonTanks.cpp
+  [5/9] PawnBase.cpp
+  [6/9] PawnBase.gen.cpp
+  [7/9] UE4Editor-ToonTanks-3042.lib
+     Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.exp
+  [8/9] UE4Editor-ToonTanks-3042.dll
+     Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.suppressed.exp
+  [9/9] ToonTanksEditor.target
+Total time in Parallel executor: 101.11 seconds
+Total execution time: 126.48 seconds
+
+[2020.06.25-02.28.08:410][552]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 12:28:08 PM
+[2020.06.25-02.28.08:410][552]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-02.28.08:410][552]CompilerResultsLog: Creating makefile for ToonTanksEditor (no existing makefile)
+[2020.06.25-02.28.08:410][552]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-02.28.08:410][552]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-02.28.08:411][552]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 15.0429991 seconds
+[2020.06.25-02.28.08:411][552]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-02.28.08:411][552]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-02.28.08:411][552]CompilerResultsLog: Building 9 actions with 4 processes...
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [1/9] Default.rc2
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [3/9] ToonTanks.init.gen.cpp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [4/9] ToonTanks.cpp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [5/9] PawnBase.cpp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [6/9] PawnBase.gen.cpp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [7/9] UE4Editor-ToonTanks-3042.lib
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.exp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [8/9] UE4Editor-ToonTanks-3042.dll
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3042.suppressed.exp
+[2020.06.25-02.28.08:411][552]CompilerResultsLog:   [9/9] ToonTanksEditor.target
+[2020.06.25-02.28.08:411][552]CompilerResultsLog: Total time in Parallel executor: 101.11 seconds
+[2020.06.25-02.28.08:411][552]CompilerResultsLog: Total execution time: 126.48 seconds
+[2020.06.25-02.28.08:412][552]LogMainFrame: MainFrame: Module compiling took 126.792 seconds
+[2020.06.25-02.28.08:430][552]Reloading module ToonTanks after successful compile.
+[2020.06.25-02.28.09:637][552]LogClass: Could not find existing package /Script/ToonTanks for HotReload of class PawnBase, assuming a new package.
+[2020.06.25-02.28.09:640][552]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0011 seconds. Added 1 classes and 3 folders.
+[2020.06.25-02.28.09:683][552]LogUObjectHash: Compacting FUObjectHashTables data took   5.82ms
+[2020.06.25-02.28.09:716][552]LogContentBrowser: Native class hierarchy populated in 0.0173 seconds. Added 3427 classes and 823 folders.
+[2020.06.25-02.28.10:360][552]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.06.25-02.29.29:050][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.25-02.30.41:736][950]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-02.42.21:042][486]Candidate modules for hot reload:
+[2020.06.25-02.42.21:042][486]  ToonTanks
+[2020.06.25-02.42.21:042][486]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2262 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-02.42.21:080][486]Warning: Starting HotReload took  0.1s.
+[2020.06.25-02.43.10:628][635]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 12:43:10 PM
+[2020.06.25-02.43.10:637][635]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Creating makefile for ToonTanksEditor (config setting changed)
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 14.7437644 seconds
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:   [1/5] PawnBase.cpp
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:   [2/5] PawnBase.gen.cpp
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:   [3/5] UE4Editor-ToonTanks-2262.lib
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2262.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2262.exp
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:   [4/5] UE4Editor-ToonTanks-2262.dll
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2262.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2262.suppressed.exp
+[2020.06.25-02.43.10:638][635]CompilerResultsLog:   [5/5] ToonTanksEditor.target
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Total time in Parallel executor: 27.73 seconds
+[2020.06.25-02.43.10:638][635]CompilerResultsLog: Total execution time: 48.91 seconds
+[2020.06.25-02.43.10:638][635]LogMainFrame: MainFrame: Module compiling took 49.611 seconds
+[2020.06.25-02.43.10:731][635]LogContentBrowser: Native class hierarchy populated in 0.0321 seconds. Added 3427 classes and 823 folders.
+[2020.06.25-02.43.10:731][635]Display: HotReload took 49.7s.
