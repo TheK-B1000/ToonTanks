@@ -52,9 +52,15 @@
     <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTank.h">
       <Filter>Source\ToonTanks\Pawns</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTanks\Pawns\PawnTurret.h">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTank.cpp">
+      <Filter>Source\ToonTanks\Pawns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ToonTanks\Pawns\PawnTurret.cpp">
       <Filter>Source\ToonTanks\Pawns</Filter>
     </ClCompile>
   </ItemGroup>

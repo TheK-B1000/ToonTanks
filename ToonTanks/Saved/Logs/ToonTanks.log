@@ -791,3 +791,240 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.25-21.20.38:431][945]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000245F231E600), frame # 2945
 [2020.06.25-21.20.38:436][945]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
 [2020.06.25-21.20.38:484][946]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.06.25-21.22.21:283][528]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.06.25-21.22.21:283][528]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.06.25-21.22.31:602][112]Candidate modules for hot reload:
+[2020.06.25-21.22.31:602][112]  ToonTanks
+[2020.06.25-21.22.31:602][112]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,8049 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.23.29:887][112]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.23.47:962][112]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.24.54:374][112]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.25.05:000][112]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:25:05 AM
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Invalidating makefile for ToonTanksEditor (source file added)
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-21.25.05:001][112]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 17.4723577 seconds
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-21.25.05:001][112]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.25-21.25.05:001][112]CompilerResultsLog:   [1/6] PawnTurret.cpp
+[2020.06.25-21.25.05:001][112]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnTurret.h(6): fatal error C1083: Cannot open include file: 'Pawns/PawnBase.h': No such file or directory
+[2020.06.25-21.25.05:001][112]CompilerResultsLog:   [2/6] ToonTanks.init.gen.cpp
+[2020.06.25-21.25.05:001][112]CompilerResultsLog:   [3/6] PawnTurret.gen.cpp
+[2020.06.25-21.25.05:002][112]LogMainFrame: MainFrame: Module compiling took 153.416 seconds
+[2020.06.25-21.25.05:002][112]Warning: HotReload failed, recompile failed
+[2020.06.25-21.25.05:002][112]Warning: RebindPackages failed because compilation failed.
+[2020.06.25-21.26.00:361][112]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.26.15:717][112]LogSlate: Window 'Message' being destroyed
+[2020.06.25-21.26.15:723][112]Message dialog closed, result: No, title: Message, text: Successfully added class 'PawnTurret', however you must recompile the 'ToonTanks' module before it will appear in the Content Browser. Failed to automatically hot reload the 'ToonTanks' module.
+
+Would you like to open the Output Log to see more details?
+[2020.06.25-21.26.15:724][112]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.06.25-21.26.16:754][151]Candidate modules for hot reload:
+[2020.06.25-21.26.16:754][151]  ToonTanks
+[2020.06.25-21.26.16:754][151]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,9303 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.26.16:788][151]Warning: Starting HotReload took  0.1s.
+[2020.06.25-21.26.20:808][311]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:26:20 AM
+[2020.06.25-21.26.20:809][311]CompilerResultsLog: ERROR: A conflicting instance of UnrealBuildTool is already running.
+[2020.06.25-21.26.20:809][311]LogMainFrame: MainFrame: Module compiling took 4.064 seconds
+[2020.06.25-21.26.20:809][311]Warning: HotReload failed, recompile failed
+[2020.06.25-21.26.22:690][389]LogSlate: Took 0.002898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.25-21.26.32:375][678]Candidate modules for hot reload:
+[2020.06.25-21.26.32:375][678]  ToonTanks
+[2020.06.25-21.26.32:375][678]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3721 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.26.32:393][678]Warning: Starting HotReload took  0.1s.
+[2020.06.25-21.26.34:931][737]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:26:34 AM
+[2020.06.25-21.26.34:937][737]CompilerResultsLog: ERROR: A conflicting instance of UnrealBuildTool is already running.
+[2020.06.25-21.26.34:938][737]LogMainFrame: MainFrame: Module compiling took 2.579 seconds
+[2020.06.25-21.26.34:938][737]Warning: HotReload failed, recompile failed
+[2020.06.25-21.28.30:776][144]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.30.33:865][448]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.31.05:933][542]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.32.20:733][850]Candidate modules for hot reload:
+[2020.06.25-21.32.20:733][850]  ToonTanks
+[2020.06.25-21.32.20:735][850]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,310 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.32.20:791][850]Warning: Starting HotReload took  0.1s.
+[2020.06.25-21.32.33:758][900]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:32:33 AM
+[2020.06.25-21.32.33:758][900]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-21.32.33:758][900]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-21.32.33:759][900]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-21.32.33:759][900]CompilerResultsLog: Building 3 actions with 4 processes...
+[2020.06.25-21.32.33:759][900]CompilerResultsLog:   [1/3] UE4Editor-ToonTanks-0310.lib
+[2020.06.25-21.32.33:759][900]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0310.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0310.exp
+[2020.06.25-21.32.33:759][900]CompilerResultsLog:   [2/3] UE4Editor-ToonTanks-0310.dll
+[2020.06.25-21.32.33:759][900]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0310.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-0310.suppressed.exp
+[2020.06.25-21.32.33:759][900]CompilerResultsLog:   [3/3] ToonTanksEditor.target
+[2020.06.25-21.32.33:759][900]CompilerResultsLog: Total time in Parallel executor: 10.30 seconds
+[2020.06.25-21.32.33:759][900]CompilerResultsLog: Total execution time: 12.27 seconds
+[2020.06.25-21.32.33:759][900]LogMainFrame: MainFrame: Module compiling took 13.039 seconds
+[2020.06.25-21.32.33:820][900]LogContentBrowser: Native class hierarchy populated in 0.0290 seconds. Added 3428 classes and 823 folders.
+[2020.06.25-21.32.33:822][900]Display: HotReload took 13.1s.
+[2020.06.25-21.34.09:925][184]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.34.37:329][282]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.35.43:574][524]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.36.10:014][668]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.25-21.36.10:045][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.25-21.36.10:047][668]PIE: New page: PIE session: Main (Jun 25, 2020, 7:36:10 AM)
+[2020.06.25-21.36.10:047][668]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.25-21.36.10:055][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007463s)
+[2020.06.25-21.36.10:059][668]LogAIModule: Creating AISystem for world Main
+[2020.06.25-21.36.10:059][668]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000245EF1FA200), frame # 6668
+[2020.06.25-21.36.10:059][668]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002462B021800), frame # 6668
+[2020.06.25-21.36.10:060][668]LogPlayLevel: PIE: World Init took: (0.004710s)
+[2020.06.25-21.36.10:060][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.012464s)
+[2020.06.25-21.36.10:211][668]LogUObjectHash: Compacting FUObjectHashTables data took   8.68ms
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.25-21.36.10:215][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.25-21.36.10:216][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.25-21.36.10:216][668]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.25-21.36.10:216][668]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.25-21.36.10:234][668]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.25-21.36.10:234][668]LogAudioMixer: Display: 1: FrontRight
+[2020.06.25-21.36.10:281][668]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.06.25-21.36.10:281][668]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.25-21.36.10:281][668]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.25-21.36.10:281][668]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.25-21.36.10:282][668]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.25-21.36.10:315][668]LogInit: FAudioDevice initialized.
+[2020.06.25-21.36.10:330][668]LogLoad: Game class is 'GameModeBase'
+[2020.06.25-21.36.10:332][668]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.25-14.36.10
+[2020.06.25-21.36.10:333][668]LogWorld: Bringing up level for play took: 0.002259
+[2020.06.25-21.36.10:334][668]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.06.25-21.36.10:337][668]PIE: Server logged in
+[2020.06.25-21.36.10:341][668]PIE: Play in editor total start time 0.308 seconds.
+[2020.06.25-21.36.17:632][ 21]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.25-21.36.17:646][ 21]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.25-21.36.17:666][ 21]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.25-21.36.17:669][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-21.36.17:669][ 21]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.25-21.36.17:669][ 21]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.25-21.36.17:671][ 21]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-21.36.17:673][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.25-21.36.17:690][ 21]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.25-21.36.17:697][ 21]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.25-21.36.17:747][ 21]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.25-21.36.17:789][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-21.36.17:815][ 21]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000245EF1FA200), frame # 7021
+[2020.06.25-21.36.17:815][ 21]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002462B021800), frame # 7021
+[2020.06.25-21.36.17:842][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   7.27ms
+[2020.06.25-21.36.17:879][ 22]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.06.25-21.36.38:880][142]Candidate modules for hot reload:
+[2020.06.25-21.36.38:880][142]  ToonTanks
+[2020.06.25-21.36.38:880][142]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2166 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.36.38:892][142]Warning: Starting HotReload took  0.0s.
+[2020.06.25-21.37.38:364][316]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:37:38 AM
+[2020.06.25-21.37.38:364][316]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-21.37.38:364][316]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-21.37.38:364][316]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-21.37.38:365][316]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 21.0285052 seconds
+[2020.06.25-21.37.38:365][316]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-21.37.38:365][316]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-21.37.38:365][316]CompilerResultsLog: Building 5 actions with 4 processes...
+[2020.06.25-21.37.38:365][316]CompilerResultsLog:   [1/5] PawnTurret.cpp
+[2020.06.25-21.37.38:366][316]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnTurret.cpp(17) : error C2661: 'FTimerManager::SetTimer': no overloaded function takes 0 arguments
+[2020.06.25-21.37.38:367][316]CompilerResultsLog:   [2/5] PawnTurret.gen.cpp
+[2020.06.25-21.37.38:368][316]LogMainFrame: MainFrame: Module compiling took 59.497 seconds
+[2020.06.25-21.37.38:368][316]Warning: HotReload failed, recompile failed
+[2020.06.25-21.39.30:943][645]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.39.38:990][736]Candidate modules for hot reload:
+[2020.06.25-21.39.38:990][736]  ToonTanks
+[2020.06.25-21.39.38:990][736]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2177 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.39.39:004][736]Warning: Starting HotReload took  0.0s.
+[2020.06.25-21.40.45:178][880]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.40.50:723][895]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:40:50 AM
+[2020.06.25-21.40.50:723][895]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-21.40.50:723][895]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-21.40.50:724][895]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-21.40.50:724][895]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 23.9122869 seconds
+[2020.06.25-21.40.50:724][895]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-21.40.50:724][895]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-21.40.50:724][895]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.25-21.40.50:724][895]CompilerResultsLog:   [1/6] PawnTurret.cpp
+[2020.06.25-21.40.50:724][895]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnTurret.cpp(17) : error C3867: 'APawnTurret::CheckFireCondition': non-standard syntax; use '&' to create a pointer to member
+[2020.06.25-21.40.50:724][895]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnTurret.cpp(17) : error C2661: 'FTimerManager::SetTimer': no overloaded function takes 6 arguments
+[2020.06.25-21.40.50:724][895]CompilerResultsLog:   [2/6] ToonTanks.init.gen.cpp
+[2020.06.25-21.40.50:724][895]CompilerResultsLog:   [3/6] PawnTurret.gen.cpp
+[2020.06.25-21.40.50:724][895]LogMainFrame: MainFrame: Module compiling took 71.743 seconds
+[2020.06.25-21.40.50:725][895]Warning: HotReload failed, recompile failed
+[2020.06.25-21.41.09:487][188]Candidate modules for hot reload:
+[2020.06.25-21.41.09:487][188]  ToonTanks
+[2020.06.25-21.41.09:487][188]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,7449 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-21.41.09:499][188]Warning: Starting HotReload took  0.0s.
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 7:41:23 AM
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.25-21.41.23:511][248]CompilerResultsLog:   [1/4] PawnTurret.cpp
+[2020.06.25-21.41.23:511][248]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-7449.lib
+[2020.06.25-21.41.23:511][248]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7449.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7449.exp
+[2020.06.25-21.41.23:511][248]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-7449.dll
+[2020.06.25-21.41.23:511][248]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7449.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-7449.suppressed.exp
+[2020.06.25-21.41.23:511][248]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: Total time in Parallel executor: 11.82 seconds
+[2020.06.25-21.41.23:511][248]CompilerResultsLog: Total execution time: 13.66 seconds
+[2020.06.25-21.41.23:511][248]LogMainFrame: MainFrame: Module compiling took 14.035 seconds
+[2020.06.25-21.41.24:675][248]LogClass: Could not find existing class PawnTurret in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.25-21.41.24:688][248]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0009 seconds. Added 3 classes and 3 folders.
+[2020.06.25-21.41.24:695][248]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.06.25-21.41.24:874][248]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 3429 classes and 823 folders.
+[2020.06.25-21.41.24:874][248]Display: HotReload took 15.4s.
+[2020.06.25-21.41.58:153][347]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-21.43.26:249][730]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.25-21.43.26:275][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.25-21.43.26:276][730]PIE: New page: PIE session: Main (Jun 25, 2020, 7:43:26 AM)
+[2020.06.25-21.43.26:278][730]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2020.06.25-21.43.26:288][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009513s)
+[2020.06.25-21.43.26:290][730]LogAIModule: Creating AISystem for world Main
+[2020.06.25-21.43.26:290][730]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002462B0AAA00), frame # 8730
+[2020.06.25-21.43.26:291][730]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002462B04FD80), frame # 8730
+[2020.06.25-21.43.26:291][730]LogPlayLevel: PIE: World Init took: (0.003371s)
+[2020.06.25-21.43.26:292][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.013615s)
+[2020.06.25-21.43.26:441][730]LogUObjectHash: Compacting FUObjectHashTables data took   6.27ms
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.25-21.43.26:447][730]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.25-21.43.26:447][730]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.25-21.43.26:448][730]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.25-21.43.26:448][730]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.25-21.43.26:462][730]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.25-21.43.26:462][730]LogAudioMixer: Display: 1: FrontRight
+[2020.06.25-21.43.26:506][730]LogAudioMixer: Display: Using Audio Device Speakers (Yeti Stereo Microphone)
+[2020.06.25-21.43.26:507][730]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.25-21.43.26:507][730]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.25-21.43.26:507][730]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.25-21.43.26:507][730]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.25-21.43.26:547][730]LogInit: FAudioDevice initialized.
+[2020.06.25-21.43.26:565][730]LogLoad: Game class is 'GameModeBase'
+[2020.06.25-21.43.26:567][730]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2020.06.25-14.43.26
+[2020.06.25-21.43.26:567][730]LogWorld: Bringing up level for play took: 0.001624
+[2020.06.25-21.43.26:567][730]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.06.25-21.43.26:570][730]PIE: Server logged in
+[2020.06.25-21.43.26:572][730]PIE: Play in editor total start time 0.306 seconds.
+[2020.06.25-21.43.40:335][362]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.25-21.43.40:337][362]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.06.25-21.43.40:356][362]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.06.25-21.43.40:359][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-21.43.40:360][362]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2020.06.25-21.43.40:361][362]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.25-21.43.40:362][362]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2020.06.25-21.43.40:363][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.25-21.43.40:375][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.25-21.43.40:380][362]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.25-21.43.40:435][362]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.06.25-21.43.40:479][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.25-21.43.40:481][362]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002462B04FD80), frame # 9362
+[2020.06.25-21.43.40:481][362]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002462B0AAA00), frame # 9362
+[2020.06.25-21.43.40:515][362]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.06.25-21.43.40:575][363]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.06.25-21.43.40:869][371]Cmd: SELECT NONE
