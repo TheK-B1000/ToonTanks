@@ -58,7 +58,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnBase); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(APawnBase)
 
 
-#define ToonTanks_Source_ToonTanks_Pawns_PawnBase_h_14_PRIVATE_PROPERTY_OFFSET
+#define ToonTanks_Source_ToonTanks_Pawns_PawnBase_h_14_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CapsuleComp() { return STRUCT_OFFSET(APawnBase, CapsuleComp); } \
+	FORCEINLINE static uint32 __PPO__BaseMesh() { return STRUCT_OFFSET(APawnBase, BaseMesh); } \
+	FORCEINLINE static uint32 __PPO__TurretMesh() { return STRUCT_OFFSET(APawnBase, TurretMesh); } \
+	FORCEINLINE static uint32 __PPO__ProjectileSpawnPoint() { return STRUCT_OFFSET(APawnBase, ProjectileSpawnPoint); }
+
+
 #define ToonTanks_Source_ToonTanks_Pawns_PawnBase_h_11_PROLOG
 #define ToonTanks_Source_ToonTanks_Pawns_PawnBase_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

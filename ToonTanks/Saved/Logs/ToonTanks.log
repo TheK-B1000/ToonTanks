@@ -782,3 +782,139 @@ Total execution time: 126.48 seconds
 [2020.06.25-02.43.10:638][635]LogMainFrame: MainFrame: Module compiling took 49.611 seconds
 [2020.06.25-02.43.10:731][635]LogContentBrowser: Native class hierarchy populated in 0.0321 seconds. Added 3427 classes and 823 folders.
 [2020.06.25-02.43.10:731][635]Display: HotReload took 49.7s.
+[2020.06.25-02.59.58:942][675]Candidate modules for hot reload:
+[2020.06.25-02.59.58:943][675]  ToonTanks
+[2020.06.25-02.59.58:943][675]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6533 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-02.59.58:980][675]Warning: Starting HotReload took  0.1s.
+[2020.06.25-03.01.05:888][377]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:01:05 PM
+[2020.06.25-03.01.05:890][377]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.01.05:890][377]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-03.01.05:890][377]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-03.01.05:890][377]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 15.6791944 seconds
+[2020.06.25-03.01.05:890][377]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.01.05:890][377]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.01.05:890][377]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.25-03.01.05:890][377]CompilerResultsLog:   [1/6] PawnBase.cpp
+[2020.06.25-03.01.05:891][377]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(13) : error C2440: '=': cannot convert from 'UCapsuleComponent *' to 'USceneComponent *'
+[2020.06.25-03.01.05:891][377]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(13): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2020.06.25-03.01.05:891][377]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(15) : error C2065: 'BaseMesh': undeclared identifier
+[2020.06.25-03.01.05:891][377]CompilerResultsLog:   [2/6] ToonTanks.init.gen.cpp
+[2020.06.25-03.01.05:891][377]CompilerResultsLog:   [3/6] PawnBase.gen.cpp
+[2020.06.25-03.01.05:891][377]LogMainFrame: MainFrame: Module compiling took 66.961 seconds
+[2020.06.25-03.01.05:893][377]Warning: HotReload failed, recompile failed
+[2020.06.25-03.01.12:294][681]LogSlate: Took 0.001776 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.25-03.02.56:469][163]Candidate modules for hot reload:
+[2020.06.25-03.02.56:469][163]  ToonTanks
+[2020.06.25-03.02.56:469][163]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2978 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.02.56:495][163]Warning: Starting HotReload took  0.1s.
+[2020.06.25-03.03.06:730][196]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:03:06 PM
+[2020.06.25-03.03.06:731][196]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.03.06:731][196]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.03.06:731][196]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.03.06:731][196]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.25-03.03.06:731][196]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2020.06.25-03.03.06:732][196]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5) : error C2018: unknown character '0x93'
+[2020.06.25-03.03.06:732][196]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5) : error C2006: '#include': expected "FILENAME" or <FILENAME>
+[2020.06.25-03.03.06:732][196]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5): fatal error C1083: Cannot open include file: '': No such file or directory
+[2020.06.25-03.03.06:735][196]LogMainFrame: MainFrame: Module compiling took 10.282 seconds
+[2020.06.25-03.03.07:418][196]Warning: HotReload failed, recompile failed
+[2020.06.25-03.31.59:267][502]Candidate modules for hot reload:
+[2020.06.25-03.31.59:267][502]  ToonTanks
+[2020.06.25-03.31.59:268][502]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5283 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.31.59:292][502]Warning: Starting HotReload took  0.1s.
+[2020.06.25-03.32.11:912][551]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:32:11 PM
+[2020.06.25-03.32.11:912][551]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.32.11:912][551]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.32.11:912][551]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.32.11:912][551]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.25-03.32.11:915][551]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2020.06.25-03.32.11:917][551]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5) : error C2018: unknown character '0x93'
+[2020.06.25-03.32.11:917][551]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5) : error C2006: '#include': expected "FILENAME" or <FILENAME>
+[2020.06.25-03.32.11:917][551]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5): fatal error C1083: Cannot open include file: '': No such file or directory
+[2020.06.25-03.32.11:917][551]LogMainFrame: MainFrame: Module compiling took 12.668 seconds
+[2020.06.25-03.32.11:917][551]Warning: HotReload failed, recompile failed
+[2020.06.25-03.33.30:408][797]Candidate modules for hot reload:
+[2020.06.25-03.33.30:408][797]  ToonTanks
+[2020.06.25-03.33.30:409][797]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,7616 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.33.30:434][797]Warning: Starting HotReload took  0.1s.
+[2020.06.25-03.33.48:573][839]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:33:48 PM
+[2020.06.25-03.33.48:573][839]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.33.48:573][839]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.33.48:573][839]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.33.48:573][839]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.25-03.33.48:573][839]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2020.06.25-03.33.48:573][839]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5) : error C2018: unknown character '0x93'
+[2020.06.25-03.33.48:573][839]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5) : error C2006: '#include': expected "FILENAME" or <FILENAME>
+[2020.06.25-03.33.48:573][839]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(5): fatal error C1083: Cannot open include file: '': No such file or directory
+[2020.06.25-03.33.48:574][839]LogMainFrame: MainFrame: Module compiling took 18.177 seconds
+[2020.06.25-03.33.48:574][839]Warning: HotReload failed, recompile failed
+[2020.06.25-03.35.31:878][218]Candidate modules for hot reload:
+[2020.06.25-03.35.31:878][218]  ToonTanks
+[2020.06.25-03.35.31:878][218]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,311 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.35.31:926][218]Warning: Starting HotReload took  0.1s.
+[2020.06.25-03.35.51:838][292]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:35:51 PM
+[2020.06.25-03.35.51:838][292]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.35.51:838][292]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.35.51:838][292]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.35.51:838][292]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.25-03.35.51:838][292]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2020.06.25-03.35.51:838][292]CompilerResultsLog:   C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(7): fatal error C1083: Cannot open include file: 'ToonTanks/Actors/ProjectileBase.h': No such file or directory
+[2020.06.25-03.35.51:838][292]LogMainFrame: MainFrame: Module compiling took 19.978 seconds
+[2020.06.25-03.35.51:838][292]Warning: HotReload failed, recompile failed
+[2020.06.25-03.36.13:816][992]Candidate modules for hot reload:
+[2020.06.25-03.36.13:816][992]  ToonTanks
+[2020.06.25-03.36.13:816][992]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,159 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.36.13:832][992]Warning: Starting HotReload took  0.0s.
+[2020.06.25-03.36.16:154][ 12]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:36:16 PM
+[2020.06.25-03.36.16:155][ 12]CompilerResultsLog: ERROR: A conflicting instance of UnrealBuildTool is already running.
+[2020.06.25-03.36.16:156][ 12]LogMainFrame: MainFrame: Module compiling took 2.354 seconds
+[2020.06.25-03.36.16:156][ 12]Warning: HotReload failed, recompile failed
+[2020.06.25-03.36.37:258][355]Candidate modules for hot reload:
+[2020.06.25-03.36.37:258][355]  ToonTanks
+[2020.06.25-03.36.37:258][355]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5529 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.36.37:270][355]Warning: Starting HotReload took  0.0s.
+[2020.06.25-03.36.43:281][436]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:36:43 PM
+[2020.06.25-03.36.43:281][436]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.36.43:281][436]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.36.43:281][436]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.36.43:281][436]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.25-03.36.43:281][436]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2020.06.25-03.36.43:281][436]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(18) : error C2065: 'BaseMesh': undeclared identifier
+[2020.06.25-03.36.43:281][436]CompilerResultsLog:    C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks\Pawns\PawnBase.cpp(19) : error C2065: 'BaseMesh': undeclared identifier
+[2020.06.25-03.36.43:282][436]LogMainFrame: MainFrame: Module compiling took 6.035 seconds
+[2020.06.25-03.36.43:282][436]Warning: HotReload failed, recompile failed
+[2020.06.25-03.37.00:189][666]Candidate modules for hot reload:
+[2020.06.25-03.37.00:189][666]  ToonTanks
+[2020.06.25-03.37.00:190][666]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3912 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.37.00:203][666]Warning: Starting HotReload took  0.0s.
+[2020.06.25-03.37.08:626][748]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:37:08 PM
+[2020.06.25-03.37.08:626][748]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.37.08:626][748]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-03.37.08:626][748]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-03.37.08:626][748]LogMainFrame: MainFrame: Module compiling took 8.450 seconds
+[2020.06.25-03.37.08:626][748]Warning: HotReload failed, recompile failed
+[2020.06.25-03.37.11:032][811]Candidate modules for hot reload:
+[2020.06.25-03.37.11:032][811]  ToonTanks
+[2020.06.25-03.37.11:033][811]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,6133 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.25-03.37.11:057][811]Warning: Starting HotReload took  0.1s.
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: New page: Compilation - Jun 24, 2020, 1:37:50 PM
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 8.0316359 seconds
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   [1/6] ToonTanks.init.gen.cpp
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   [2/6] PawnBase.cpp
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   [3/6] PawnBase.gen.cpp
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   [4/6] UE4Editor-ToonTanks-6133.lib
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6133.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6133.exp
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   [5/6] UE4Editor-ToonTanks-6133.dll
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6133.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-6133.suppressed.exp
+[2020.06.25-03.37.50:600][933]CompilerResultsLog:   [6/6] ToonTanksEditor.target
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Total time in Parallel executor: 29.14 seconds
+[2020.06.25-03.37.50:600][933]CompilerResultsLog: Total execution time: 38.77 seconds
+[2020.06.25-03.37.50:600][933]LogMainFrame: MainFrame: Module compiling took 39.583 seconds
+[2020.06.25-03.37.51:601][933]LogContentBrowser: Native class hierarchy populated in 0.4239 seconds. Added 3427 classes and 823 folders.
+[2020.06.25-03.37.51:602][933]Display: HotReload took 40.6s.
