@@ -669,3 +669,83 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.06.25-15.54.08:951][113]LogAudioMixer: Display: Audio Buffer Underrun detected.
 [2020.06.25-16.04.34:183][129]LogRenderer: Reallocating scene render targets to support 964x520 Format 10 NumSamples 1 (Frame:1).
 [2020.06.25-16.05.09:740][488]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.49.40:239][442]LogStaticMesh: Building static mesh SM_TowerBase...
+[2020.06.25-18.49.40:249][442]LogTexture: Display: Building textures: T_ColourGrid (AutoDXT, 256X256)
+[2020.06.25-18.49.40:389][442]LogStaticMesh: Built static mesh [0.16s] /Game/Assets/Meshes/SM_TowerBase.SM_TowerBase
+[2020.06.25-18.49.40:456][442]LogMaterial: Display: Missing cached shader map for material M_EmissiveBase, compiling. 
+[2020.06.25-18.49.40:640][442]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 19
+[2020.06.25-18.49.40:640][442]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 12
+[2020.06.25-18.49.40:641][442]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 5
+[2020.06.25-18.49.40:641][442]LogMaterial: Display: Missing cached shader map for material M_TextureBase, compiling. 
+[2020.06.25-18.50.09:867][718]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 19
+[2020.06.25-18.50.27:348][549]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 12
+[2020.06.25-18.50.37:782][ 51]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 7
+[2020.06.25-18.50.46:818][487]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.06.25-18.50.54:866][881]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 2
+[2020.06.25-18.51.00:902][161]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 1
+[2020.06.25-18.51.16:584][902]LogUObjectHash: Compacting FUObjectHashTables data took  15.26ms
+[2020.06.25-18.51.16:689][902]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.814
+[2020.06.25-18.51.16:700][902]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Pawn/BP_PawnTurret] ([1] browsable assets)...
+[2020.06.25-18.51.16:760][902]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Pawn/BP_PawnTurret.BP_PawnTurret]
+[2020.06.25-18.51.16:760][902]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Pawn/BP_PawnTurret]
+[2020.06.25-18.51.16:856][902]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTurret_Auto1B9C44CF9441CA606F474C687747CD227.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Autosaves/Game/Blueprints/Pawn/BP_PawnTurret_Auto1.uasset'
+[2020.06.25-18.51.16:860][902]LogFileHelpers: Auto-saving content packages took 0.169
+[2020.06.25-18.52.31:245][950]LogStaticMesh: Building static mesh SM_TankBase...
+[2020.06.25-18.52.31:345][950]LogStaticMesh: Built static mesh [0.10s] /Game/Assets/Meshes/SM_TankBase.SM_TankBase
+[2020.06.25-18.52.38:761][257]LogStaticMesh: Building static mesh SM_TankTurret...
+[2020.06.25-18.52.38:818][257]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/Meshes/SM_TankTurret.SM_TankTurret
+[2020.06.25-18.52.40:493][330]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.52.54:427][983]LogStaticMesh: Building static mesh SM_TowerTurret...
+[2020.06.25-18.52.54:514][983]LogStaticMesh: Built static mesh [0.09s] /Game/Assets/Meshes/SM_TowerTurret.SM_TowerTurret
+[2020.06.25-18.53.05:637][504]BlueprintLog: New page: Compile BP_PawnTurret
+[2020.06.25-18.53.05:798][504]LogUObjectHash: Compacting FUObjectHashTables data took   8.64ms
+[2020.06.25-18.53.06:250][515]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTurret68A916614E902E64735FF0857A837567.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTurret.uasset'
+[2020.06.25-18.53.06:295][515]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2020.06.25-18.53.06:295][515]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTurret.BP_PawnTurret
+[2020.06.25-18.53.06:967][537]BlueprintLog: New page: Compile BP_PawnTank
+[2020.06.25-18.53.07:099][537]LogUObjectHash: Compacting FUObjectHashTables data took   4.45ms
+[2020.06.25-18.53.07:545][550]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTank37E9E6AF4E77AC68B8238C8081582243.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTank.uasset'
+[2020.06.25-18.53.07:572][550]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.06.25-18.53.07:572][550]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTank.BP_PawnTank
+[2020.06.25-18.53.17:650][652]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.54.04:927][151]BlueprintLog: New page: Compile BP_PawnTurret
+[2020.06.25-18.54.05:025][151]LogUObjectHash: Compacting FUObjectHashTables data took   7.26ms
+[2020.06.25-18.54.05:555][165]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTurret9F4707364728792B11F08AB82E1A11D9.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTurret.uasset'
+[2020.06.25-18.54.05:580][165]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2020.06.25-18.54.05:580][165]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTurret.BP_PawnTurret
+[2020.06.25-18.54.13:060][325]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2020.06.25-18.54.24:733][784]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.54.27:049][878]LogEditorViewport: Clicking on Actor (LMB): BP_PawnTank_C (BP_PawnTank)
+[2020.06.25-18.54.35:493][240]LogRenderer: Reallocating scene render targets to support 1256x640 Format 10 NumSamples 1 (Frame:1203).
+[2020.06.25-18.54.35:559][241]LogRenderer: Reallocating scene render targets to support 1540x828 Format 10 NumSamples 1 (Frame:1205).
+[2020.06.25-18.55.31:838][534]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.57.58:471][274]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.58.35:599][461]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.59.30:473][617]BlueprintLog: New page: Compile BP_PawnTank
+[2020.06.25-18.59.30:751][617]LogUObjectHash: Compacting FUObjectHashTables data took   9.47ms
+[2020.06.25-18.59.31:142][625]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTankCD7A6CD54641D22A221CC1B7E6C83154.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTank.uasset'
+[2020.06.25-18.59.31:167][625]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.06.25-18.59.31:167][625]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTank.BP_PawnTank
+[2020.06.25-18.59.45:570][919]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.25-18.59.57:815][413]BlueprintLog: New page: Compile BP_PawnTank
+[2020.06.25-18.59.58:079][413]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2020.06.25-18.59.58:623][419]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTank1812B8164174A76A983AA5ABD302C43E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTank.uasset'
+[2020.06.25-18.59.58:648][419]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.06.25-18.59.58:649][419]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTank.BP_PawnTank
+[2020.06.25-19.00.15:591][ 39]BlueprintLog: New page: Compile BP_PawnTurret
+[2020.06.25-19.00.15:727][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2020.06.25-19.00.16:641][ 51]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTurretE00598F5437E3BCE8B0FF180A6FD63C8.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTurret.uasset'
+[2020.06.25-19.00.16:672][ 51]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2020.06.25-19.00.16:672][ 51]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTurret.BP_PawnTurret
+[2020.06.25-19.00.20:579][186]BlueprintLog: New page: Compile BP_PawnTank
+[2020.06.25-19.00.20:869][186]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.06.25-19.00.21:170][191]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTankEF1C3342436204FDC2D7EA9FE1389617.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawn/BP_PawnTank.uasset'
+[2020.06.25-19.00.21:207][191]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.06.25-19.00.21:212][191]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawn/BP_PawnTank.BP_PawnTank
+[2020.06.25-19.00.22:280][223]LogUObjectHash: Compacting FUObjectHashTables data took   6.73ms
+[2020.06.25-19.00.22:327][223]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/MainDB64B0544BA1E52DCDDE82BCFD1D7D69.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main.umap'
+[2020.06.25-19.00.22:362][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.25-19.00.22:434][223]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main_BuiltData35EF4F0F4A3DFF0F849748A0CF3E61AB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.06.25-19.00.22:481][223]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.25-19.00.22:481][223]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.25-19.00.22:481][223]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
