@@ -29,6 +29,11 @@ void APawnTank::HandleDestruction()
 	Super::HandleDestruction();
 	// Hide Player -- TODO create new function that can do this.
 
+
+		bAlive = false;
+		SetActorHiddenInGame(true);
+		SetActorTickEnabled(false);
+
 }
 
 // Called every frame
@@ -78,4 +83,9 @@ void APawnTank::Move()
 void APawnTank::Rotate()
 {
 	AddActorLocalRotation(RotationDirection, true);
+}
+
+bool APawnTank::GetPlayerAlive()
+{
+	return bAlive;
 }
