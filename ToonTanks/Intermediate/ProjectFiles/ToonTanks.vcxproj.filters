@@ -82,15 +82,24 @@
     <Filter Include="Source\ToonTanks\PlayerControllers">
       <UniqueIdentifier>{f25518ea-0b27-4b70-812e-e5fe63f8b115}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\ToonTanks\General">
+      <UniqueIdentifier>{2c4529af-719d-463f-bcc3-aa1e78ee3920}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\Source\ToonTanks\PlayerControllers\PlayerControllerBase.h">
       <Filter>Source\ToonTanks\PlayerControllers</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\ToonTanks\General\CameraShakeBase.h">
+      <Filter>Source\ToonTanks\General</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\ToonTanks\PlayerControllers\PlayerControllerBase.cpp">
       <Filter>Source\ToonTanks\PlayerControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ToonTanks\General\CameraShakeBase.cpp">
+      <Filter>Source\ToonTanks\General</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
