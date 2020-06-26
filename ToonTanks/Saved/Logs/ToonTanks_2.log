@@ -1217,3 +1217,247 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2020.06.26-11.10.05:090][312]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.26-11.10.05:090][312]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
 [2020.06.26-11.10.05:090][312]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.26-11.10.34:452][412]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-11.11.07:568][672]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 49
+[2020.06.26-11.11.08:172][679]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 39
+[2020.06.26-11.11.09:034][694]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 29
+[2020.06.26-11.11.16:990][864]LogShaderCompilers: Display: Worker (2/3): shaders left to compile 19
+[2020.06.26-11.11.17:749][875]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 12
+[2020.06.26-11.11.22:555][923]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-11.11.23:583][936]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 7
+[2020.06.26-11.11.25:340][962]LogShaderCompilers: Display: Worker (3/3): shaders left to compile 4
+[2020.06.26-11.11.26:556][980]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 2
+[2020.06.26-11.11.27:909][997]LogShaderCompilers: Display: Worker (1/3): shaders left to compile 1
+[2020.06.26-11.14.27:356][565]Candidate modules for hot reload:
+[2020.06.26-11.14.27:357][565]  ToonTanks
+[2020.06.26-11.14.27:360][565]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,7846 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-11.14.27:419][565]Warning: Starting HotReload took  0.3s.
+[2020.06.26-11.15.49:318][826]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 9:15:49 PM
+[2020.06.26-11.15.49:337][826]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-11.15.49:338][826]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.26-11.15.49:338][826]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.26-11.15.49:338][826]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 26.1062683 seconds
+[2020.06.26-11.15.49:338][826]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-11.15.49:338][826]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-11.15.49:339][826]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.06.26-11.15.49:339][826]CompilerResultsLog:   [1/7] ProjectileBase.cpp
+[2020.06.26-11.15.49:339][826]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.06.26-11.15.49:339][826]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.06.26-11.15.49:339][826]CompilerResultsLog: 
+[2020.06.26-11.15.49:339][826]CompilerResultsLog: 
+[2020.06.26-11.15.49:339][826]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.06.26-11.15.49:339][826]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.06.26-11.15.49:339][826]CompilerResultsLog:   [2/7] ToonTanks.init.gen.cpp
+[2020.06.26-11.15.49:340][826]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.06.26-11.15.49:340][826]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.06.26-11.15.49:340][826]CompilerResultsLog: 
+[2020.06.26-11.15.49:340][826]CompilerResultsLog: 
+[2020.06.26-11.15.49:340][826]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.06.26-11.15.49:340][826]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.06.26-11.15.49:340][826]CompilerResultsLog:   [3/7] PawnBase.cpp
+[2020.06.26-11.15.49:341][826]CompilerResultsLog:   [4/7] ProjectileBase.gen.cpp
+[2020.06.26-11.15.49:343][826]LogMainFrame: MainFrame: Module compiling took 82.112 seconds
+[2020.06.26-11.15.49:349][826]Warning: HotReload failed, recompile failed
+[2020.06.26-11.16.36:580][192]Candidate modules for hot reload:
+[2020.06.26-11.16.36:580][192]  ToonTanks
+[2020.06.26-11.16.36:581][192]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2309 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-11.16.36:592][192]Warning: Starting HotReload took  0.0s.
+[2020.06.26-11.17.31:297][377]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 9:17:31 PM
+[2020.06.26-11.17.31:297][377]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-11.17.31:298][377]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.26-11.17.31:298][377]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 15.574053 seconds
+[2020.06.26-11.17.31:298][377]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-11.17.31:298][377]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-11.17.31:298][377]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   [1/7] ToonTanks.init.gen.cpp
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   [2/7] ProjectileBase.gen.cpp
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   [3/7] PawnBase.cpp
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   [4/7] ProjectileBase.cpp
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   [5/7] UE4Editor-ToonTanks-2309.lib
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2309.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2309.exp
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:   [6/7] UE4Editor-ToonTanks-2309.dll
+[2020.06.26-11.17.31:298][377]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2309.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-2309.suppressed.exp
+[2020.06.26-11.17.31:299][377]CompilerResultsLog:   [7/7] ToonTanksEditor.target
+[2020.06.26-11.17.31:299][377]CompilerResultsLog: Total time in Parallel executor: 36.88 seconds
+[2020.06.26-11.17.31:299][377]CompilerResultsLog: Total execution time: 54.26 seconds
+[2020.06.26-11.17.31:300][377]LogMainFrame: MainFrame: Module compiling took 54.731 seconds
+[2020.06.26-11.17.34:836][377]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.26-11.17.34:838][377]LogClass: Function OnHit is new.
+[2020.06.26-11.17.35:009][377]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2020.06.26-11.17.36:072][377]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0381 seconds. Added 7 classes and 7 folders.
+[2020.06.26-11.17.36:086][377]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.06.26-11.17.37:060][377]LogContentBrowser: Native class hierarchy populated in 0.0557 seconds. Added 3433 classes and 827 folders.
+[2020.06.26-11.17.37:064][377]Display: HotReload took 60.5s.
+[2020.06.26-11.18.36:523][566]Candidate modules for hot reload:
+[2020.06.26-11.18.36:523][566]  ToonTanks
+[2020.06.26-11.18.36:523][566]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,8959 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-11.18.36:608][566]Warning: Starting HotReload took  0.2s.
+[2020.06.26-11.19.16:893][699]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 9:19:16 PM
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.26-11.19.16:894][699]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 15.5468157 seconds
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.06.26-11.19.16:894][699]CompilerResultsLog:   [1/7] PawnBase.cpp
+[2020.06.26-11.19.16:894][699]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.06.26-11.19.16:894][699]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: 
+[2020.06.26-11.19.16:894][699]CompilerResultsLog: 
+[2020.06.26-11.19.16:894][699]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.06.26-11.19.16:894][699]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.06.26-11.19.16:894][699]LogMainFrame: MainFrame: Module compiling took 40.389 seconds
+[2020.06.26-11.19.16:895][699]Warning: HotReload failed, recompile failed
+[2020.06.26-11.19.17:648][735]Candidate modules for hot reload:
+[2020.06.26-11.19.17:648][735]  ToonTanks
+[2020.06.26-11.19.17:649][735]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1257 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-11.19.17:664][735]Warning: Starting HotReload took  0.1s.
+[2020.06.26-11.19.39:082][858]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 9:19:39 PM
+[2020.06.26-11.19.39:082][858]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-11.19.39:082][858]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-11.19.39:082][858]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-11.19.39:083][858]CompilerResultsLog: Building 7 actions with 4 processes...
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   [1/7] PawnBase.cpp
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.06.26-11.19.39:083][858]CompilerResultsLog: 
+[2020.06.26-11.19.39:083][858]CompilerResultsLog: 
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   [2/7] ToonTanks.init.gen.cpp
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   [3/7] ProjectileBase.cpp
+[2020.06.26-11.19.39:083][858]CompilerResultsLog:   [4/7] ProjectileBase.gen.cpp
+[2020.06.26-11.19.39:083][858]LogMainFrame: MainFrame: Module compiling took 21.450 seconds
+[2020.06.26-11.19.39:083][858]Warning: HotReload failed, recompile failed
+[2020.06.26-11.19.53:242][ 22]Candidate modules for hot reload:
+[2020.06.26-11.19.53:242][ 22]  ToonTanks
+[2020.06.26-11.19.53:242][ 22]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,4631 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-11.19.53:256][ 22]Warning: Starting HotReload took  0.0s.
+[2020.06.26-11.20.14:205][ 99]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 9:20:14 PM
+[2020.06.26-11.20.14:205][ 99]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-11.20.14:205][ 99]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-11.20.14:205][ 99]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-11.20.14:205][ 99]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.26-11.20.14:206][ 99]CompilerResultsLog:   [1/4] PawnBase.cpp
+[2020.06.26-11.20.14:206][ 99]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-4631.lib
+[2020.06.26-11.20.14:206][ 99]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4631.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4631.exp
+[2020.06.26-11.20.14:206][ 99]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-4631.dll
+[2020.06.26-11.20.14:206][ 99]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4631.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-4631.suppressed.exp
+[2020.06.26-11.20.14:206][ 99]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2020.06.26-11.20.14:207][ 99]CompilerResultsLog: Total time in Parallel executor: 16.40 seconds
+[2020.06.26-11.20.14:207][ 99]CompilerResultsLog: Total execution time: 20.57 seconds
+[2020.06.26-11.20.14:207][ 99]LogMainFrame: MainFrame: Module compiling took 20.975 seconds
+[2020.06.26-11.20.15:471][ 99]LogClass: Could not find existing class ProjectileBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.26-11.20.15:471][ 99]LogClass: Function OnHit is new.
+[2020.06.26-11.20.15:529][ 99]LogHotReload: Re-instancing ProjectileBase after hot-reload.
+[2020.06.26-11.20.15:699][ 99]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0010 seconds. Added 7 classes and 7 folders.
+[2020.06.26-11.20.15:712][ 99]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.06.26-11.20.16:070][ 99]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 3433 classes and 827 folders.
+[2020.06.26-11.20.16:070][ 99]Display: HotReload took 22.9s.
+[2020.06.26-11.20.27:042][195]LogUObjectHash: Compacting FUObjectHashTables data took  32.18ms
+[2020.06.26-11.20.27:221][195]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main9B09AE5F49568B8DA42AE68D6AF5CFCE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main.umap'
+[2020.06.26-11.20.27:293][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.26-11.20.27:364][195]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main_BuiltDataB26F74374219FCE5387C84B1622277DE.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.06.26-11.20.27:467][195]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.26-11.20.27:467][195]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.26-11.20.27:467][195]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.26-11.20.32:035][363]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PlayerControllerA70881B744626C2B71C46A88F1CD23DB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/PlayerControllers/BP_PlayerController.uasset'
+[2020.06.26-11.20.32:158][363]AssetCheck: New page: Asset Save: BP_PlayerController
+[2020.06.26-11.20.32:158][363]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerControllers/BP_PlayerController.BP_PlayerController
+[2020.06.26-11.20.32:714][382]LogRenderer: Reallocating scene render targets to support 1188x652 Format 10 NumSamples 1 (Frame:578).
+[2020.06.26-11.21.59:290][715]Candidate modules for hot reload:
+[2020.06.26-11.21.59:290][715]  ToonTanks
+[2020.06.26-11.21.59:291][715]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,3125 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-11.21.59:304][715]Warning: Starting HotReload took  0.1s.
+[2020.06.26-11.22.53:583][862]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.06.26-11.23.13:626][142]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2020.06.26-11.23.27:450][324]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.06.26-11.23.27:451][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.26-11.23.27:675][324]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2020.06.26-11.23.38:664][762]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Explode_Audio...
+[2020.06.26-11.23.38:665][762]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Assets/Audio/Explode_Audio.Explode_Audio will be modified from 40 to 40.
+[2020.06.26-11.23.38:715][762]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 38664 while cooking SoundWave /Game/Assets/Audio/Explode_Audio.Explode_Audio.
+[2020.06.26-11.23.40:064][807]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG10000-1-1-1-1-1 wave Thud_Audio...
+[2020.06.26-11.23.40:064][807]LogAudioDerivedData: Display: Compression Quality for SoundWave /Game/Assets/Audio/Thud_Audio.Thud_Audio will be modified from 40 to 40.
+[2020.06.26-11.23.40:083][807]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 39186 while cooking SoundWave /Game/Assets/Audio/Thud_Audio.Thud_Audio.
+[2020.06.26-11.24.02:126][722]BlueprintLog: New page: Compile BP_ProjectileBase
+[2020.06.26-11.24.02:963][722]LogUObjectHash: Compacting FUObjectHashTables data took  27.94ms
+[2020.06.26-11.24.03:156][722]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_ProjectileBase67614EDD4958267AA094F2BBFCE46DB6.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2020.06.26-11.24.03:190][722]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2020.06.26-11.24.03:190][722]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2020.06.26-11.24.03:459][729]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_ProjectileBase23011E4845FBEE9F30755C9137E95463.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Actors/BP_ProjectileBase.uasset'
+[2020.06.26-11.24.03:486][729]AssetCheck: New page: Asset Save: BP_ProjectileBase
+[2020.06.26-11.24.03:486][729]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Actors/BP_ProjectileBase.BP_ProjectileBase
+[2020.06.26-11.24.57:573][724]BlueprintLog: New page: Compile BP_PlayerController
+[2020.06.26-11.24.57:727][724]LogUObjectHash: Compacting FUObjectHashTables data took   7.80ms
+[2020.06.26-11.24.58:351][747]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PlayerControllerE08904474258153FEBBDCEA0AA6B4C67.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/PlayerControllers/BP_PlayerController.uasset'
+[2020.06.26-11.24.58:375][747]AssetCheck: New page: Asset Save: BP_PlayerController
+[2020.06.26-11.24.58:375][747]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/PlayerControllers/BP_PlayerController.BP_PlayerController
+[2020.06.26-11.25.33:359][450]BlueprintLog: New page: Compile BP_PawnTank
+[2020.06.26-11.25.33:565][450]LogUObjectHash: Compacting FUObjectHashTables data took  12.35ms
+[2020.06.26-11.25.34:055][462]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTank76F5D1264882333A9709A9AD486F806B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.06.26-11.25.34:084][462]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.06.26-11.25.34:084][462]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.06.26-11.25.47:444][650]BlueprintLog: New page: Compile BP_PawnTank
+[2020.06.26-11.25.47:647][650]LogUObjectHash: Compacting FUObjectHashTables data took   9.77ms
+[2020.06.26-11.25.48:121][664]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTank4F2EF91C47401BB7B5253C8DA42A89F7.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset'
+[2020.06.26-11.25.48:391][664]AssetCheck: New page: Asset Save: BP_PawnTank
+[2020.06.26-11.25.48:392][664]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTank.BP_PawnTank
+[2020.06.26-11.25.49:425][698]LogUObjectHash: Compacting FUObjectHashTables data took  20.23ms
+[2020.06.26-11.25.49:508][698]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main179FC21E4AEA082763C7F9B3AED51445.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main.umap'
+[2020.06.26-11.25.49:546][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.26-11.25.49:617][698]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main_BuiltData7BB1062A4162051C2FA938A4D481290A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.06.26-11.25.49:667][698]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.26-11.25.49:667][698]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.26-11.25.49:667][698]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.26-11.26.03:189][  0]BlueprintLog: New page: Compile BP_PawnTurret
+[2020.06.26-11.26.03:417][  0]LogUObjectHash: Compacting FUObjectHashTables data took  10.76ms
+[2020.06.26-11.26.04:387][ 34]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/BP_PawnTurretCA1668ED48921BDC603DA29F5F5D38E5.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset'
+[2020.06.26-11.26.04:420][ 34]AssetCheck: New page: Asset Save: BP_PawnTurret
+[2020.06.26-11.26.04:420][ 34]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Pawns/BP_PawnTurret.BP_PawnTurret
+[2020.06.26-11.26.05:565][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   9.98ms
+[2020.06.26-11.26.05:596][ 72]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main3086D1C14BFE47876F1BB185FCB231B6.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main.umap'
+[2020.06.26-11.26.05:638][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.26-11.26.05:671][ 72]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main_BuiltData529557944DFBCCAF3A80E795B9A32FED.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.06.26-11.26.05:734][ 72]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.26-11.26.05:734][ 72]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.26-11.26.05:734][ 72]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.26-11.26.31:562][131]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-11.27.08:662][254]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-11.27.25:940][305]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 9:27:25 PM
+[2020.06.26-11.27.25:942][305]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-11.27.25:942][305]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.26-11.27.25:942][305]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 23.8250509 seconds
+[2020.06.26-11.27.25:942][305]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-11.27.25:942][305]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-11.27.25:942][305]CompilerResultsLog: Building 12 actions with 4 processes...
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [1/12] ToonTanks.init.gen.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [2/12] PawnBase.gen.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [3/12] PawnTurret.gen.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [4/12] PawnTank.gen.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [5/12] PawnBase.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [6/12] TankGameModeBase.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [7/12] PawnTurret.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [8/12] PawnTank.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [9/12] ProjectileBase.cpp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [10/12] UE4Editor-ToonTanks-3125.lib
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3125.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3125.exp
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:   [11/12] UE4Editor-ToonTanks-3125.dll
+[2020.06.26-11.27.25:942][305]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3125.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-3125.suppressed.exp
+[2020.06.26-11.27.25:943][305]CompilerResultsLog:   [12/12] ToonTanksEditor.target
+[2020.06.26-11.27.25:943][305]CompilerResultsLog: Total time in Parallel executor: 299.04 seconds
+[2020.06.26-11.27.25:943][305]CompilerResultsLog: Total execution time: 326.07 seconds
+[2020.06.26-11.27.25:944][305]LogMainFrame: MainFrame: Module compiling took 326.666 seconds
+[2020.06.26-11.27.27:737][305]LogClass: Could not find existing class PawnBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.26-11.27.27:739][305]LogClass: Could not find existing class PawnTank in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.26-11.27.27:739][305]LogClass: Could not find existing class PawnTurret in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.26-11.27.27:794][305]LogHotReload: Re-instancing PawnBase after hot-reload.
+[2020.06.26-11.27.27:886][305]LogHotReload: Re-instancing PawnTank after hot-reload.
+[2020.06.26-11.27.28:035][305]LogHotReload: Re-instancing PawnTurret after hot-reload.
+[2020.06.26-11.27.28:194][305]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0152 seconds. Added 7 classes and 7 folders.
+[2020.06.26-11.27.28:212][305]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.06.26-11.27.28:952][305]LogContentBrowser: Native class hierarchy populated in 0.0450 seconds. Added 3433 classes and 827 folders.
+[2020.06.26-11.27.28:954][305]Display: HotReload took 329.7s.

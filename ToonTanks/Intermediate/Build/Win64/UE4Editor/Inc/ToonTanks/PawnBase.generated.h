@@ -66,6 +66,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APawnBase); \
 	FORCEINLINE static uint32 __PPO__HealthComponent() { return STRUCT_OFFSET(APawnBase, HealthComponent); } \
 	FORCEINLINE static uint32 __PPO__ProjectileClass() { return STRUCT_OFFSET(APawnBase, ProjectileClass); } \
 	FORCEINLINE static uint32 __PPO__DeathParticle() { return STRUCT_OFFSET(APawnBase, DeathParticle); } \
+	FORCEINLINE static uint32 __PPO__DeathSound() { return STRUCT_OFFSET(APawnBase, DeathSound); } \
 	FORCEINLINE static uint32 __PPO__HitParticle() { return STRUCT_OFFSET(APawnBase, HitParticle); }
 
 
