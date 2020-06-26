@@ -23,9 +23,38 @@ void UHealthComponent::BeginPlay()
 
 	GameModeRef = Cast<ATankGameModeBase>(UGameplayStatics::GetGameMode(GetWorld()));
 
+	// Try to get a reference to the owning class.
+	Owner = GetOwner();
+	if (Owner)
+	{
+		Owner->OnTakeAnyDamage.AddDynamic(this, &UHealthComponent::TakeDamage);
+	}
+	else
+	{
+		UE_LOG(LogTemp, Warning, TEXT("Health Component has no reference to an owner."));
+	}
+
 }
 
 void UHealthComponent::TakeDamage(AActor* DamagedActor, float Damage, const class UDamageType* DamageType, class AController* InstigatedBy, AActor* DamageActor)
 {
+	if (Damage == 0 || Health == 0)
+	{
+		return;
+	}
 
+	Health = FMath::Clamp(Health - Damage, 0.0f, DefaultHealth);
+
+	if (Health <= 0)
+	{
+		if (GameModeRef)
+		{
+			GameModeRef->ActorDied(Owner);
+		}
+		else
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Health Component has no reference to the GameMode."));
+		}
+	}
 }
+

@@ -7,6 +7,7 @@
 #include "HealthComponent.generated.h"
 
 class ATankGameModeBase;
+class UProjectileMovementComponent;
 
 UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class TOONTANKS_API UHealthComponent : public UActorComponent
