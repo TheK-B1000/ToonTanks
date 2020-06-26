@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 	TOONTANKS_API UClass* Z_Construct_UClass_ATankGameModeBase();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 	UPackage* Z_Construct_UPackage__Script_ToonTanks();
+	TOONTANKS_API UClass* Z_Construct_UClass_APawnTank_NoRegister();
 // End Cross Module References
 	static FName NAME_ATankGameModeBase_GameOver = FName(TEXT("GameOver"));
 	void ATankGameModeBase::GameOver(bool PlayerWon)
@@ -99,6 +100,11 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerTank_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerTank;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -118,6 +124,17 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Player" },
+		{ "ModuleRelativePath", "GameModes/TankGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank = { "PlayerTank", nullptr, (EPropertyFlags)0x0040000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankGameModeBase, PlayerTank), Z_Construct_UClass_APawnTank_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATankGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATankGameModeBase>::IsAbstract,
 	};
@@ -127,11 +144,11 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers),
 		0,
 		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ATankGameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::Class_MetaDataParams))
@@ -145,7 +162,7 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankGameModeBase, 3544168608);
+	IMPLEMENT_CLASS(ATankGameModeBase, 267354055);
 	template<> TOONTANKS_API UClass* StaticClass<ATankGameModeBase>()
 	{
 		return ATankGameModeBase::StaticClass();

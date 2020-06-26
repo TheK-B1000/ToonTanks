@@ -860,3 +860,116 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2020.06.26-06.45.15:382][588]AssetCheck: New page: Asset Save: multiple assets
 [2020.06.26-06.45.15:383][588]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
 [2020.06.26-06.45.15:383][588]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
+[2020.06.26-06.46.20:044][830]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B78D8825B-4DF2-0B5C-5E78-3EA3FA4AA24A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: libcurl info message cache 0 (Connection 12 seems to be dead!)
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: libcurl info message cache 1 (Closing connection 12)
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2020.06.26-07.03.14:168][843]LogHttp: Warning: 000001C43612EB00: libcurl info message cache 4 (Closing connection 13)
+[2020.06.26-07.03.14:498][844]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B78D8825B-4DF2-0B5C-5E78-3EA3FA4AA24A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.0-13144385%2B%2B%2BUE4%2BRelease-4.25&UserID=9fac42f04d0bf86c7c77a38461b5dbfe%7Cb17b9a24caaf4b22beb43e36ae37cc22%7C1aadf357-618d-45b7-89b5-366b54ee33e8&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2020.06.26-07.03.22:790][893]Candidate modules for hot reload:
+[2020.06.26-07.03.22:790][893]  ToonTanks
+[2020.06.26-07.03.22:792][893]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,2393 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-07.03.22:833][893]Warning: Starting HotReload took  0.1s.
+[2020.06.26-07.04.37:736][117]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-07.05.07:549][205]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 5:05:07 PM
+[2020.06.26-07.05.07:559][205]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-07.05.07:559][205]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.26-07.05.07:559][205]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.26-07.05.07:561][205]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 17.3609208 seconds
+[2020.06.26-07.05.07:562][205]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-07.05.07:562][205]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-07.05.07:562][205]CompilerResultsLog: Building 13 actions with 4 processes...
+[2020.06.26-07.05.07:562][205]CompilerResultsLog:   [1/13] TankGameModeBase.gen.cpp
+[2020.06.26-07.05.07:562][205]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.06.26-07.05.07:562][205]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.06.26-07.05.07:562][205]CompilerResultsLog: 
+[2020.06.26-07.05.07:562][205]CompilerResultsLog: 
+[2020.06.26-07.05.07:562][205]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.06.26-07.05.07:563][205]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [2/13] ToonTanks.init.gen.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [3/13] PawnTank.gen.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [4/13] PawnBase.gen.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [5/13] PawnTurret.gen.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [6/13] PawnTank.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [7/13] PawnBase.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [8/13] TankGameModeBase.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [9/13] PawnTurret.cpp
+[2020.06.26-07.05.07:564][205]CompilerResultsLog:   [10/13] HealthComponent.cpp
+[2020.06.26-07.05.07:579][205]LogMainFrame: MainFrame: Module compiling took 104.820 seconds
+[2020.06.26-07.05.07:583][205]Warning: HotReload failed, recompile failed
+[2020.06.26-07.05.40:797][517]Candidate modules for hot reload:
+[2020.06.26-07.05.40:797][517]  ToonTanks
+[2020.06.26-07.05.40:798][517]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,5149 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-07.05.40:823][517]Warning: Starting HotReload took  0.1s.
+[2020.06.26-07.06.18:860][ 78]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-07.07.41:231][635]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 5:07:41 PM
+[2020.06.26-07.07.41:231][635]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-07.07.41:231][635]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-07.07.41:231][635]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-07.07.41:241][635]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.26-07.07.41:241][635]CompilerResultsLog:   [1/4] TankGameModeBase.gen.cpp
+[2020.06.26-07.07.41:241][635]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-5149.lib
+[2020.06.26-07.07.41:241][635]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5149.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5149.exp
+[2020.06.26-07.07.41:241][635]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-5149.dll
+[2020.06.26-07.07.41:242][635]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5149.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-5149.suppressed.exp
+[2020.06.26-07.07.41:242][635]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2020.06.26-07.07.41:242][635]CompilerResultsLog: Total time in Parallel executor: 112.16 seconds
+[2020.06.26-07.07.41:242][635]CompilerResultsLog: Total execution time: 118.85 seconds
+[2020.06.26-07.07.41:242][635]LogMainFrame: MainFrame: Module compiling took 120.463 seconds
+[2020.06.26-07.07.42:939][635]LogClass: Could not find existing class TankGameModeBase in package /Script/ToonTanks for HotReload, assuming new class
+[2020.06.26-07.07.43:124][635]LogHotReload: Re-instancing TankGameModeBase after hot-reload.
+[2020.06.26-07.07.43:610][635]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0126 seconds. Added 6 classes and 6 folders.
+[2020.06.26-07.07.43:621][635]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.06.26-07.07.44:859][635]LogContentBrowser: Native class hierarchy populated in 0.1145 seconds. Added 3432 classes and 826 folders.
+[2020.06.26-07.07.44:862][635]Display: HotReload took 124.1s.
+[2020.06.26-07.12.16:715][500]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-07.13.19:730][688]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-07.13.31:920][752]Candidate modules for hot reload:
+[2020.06.26-07.13.31:920][752]  ToonTanks
+[2020.06.26-07.13.31:921][752]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1202 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-07.13.31:956][752]Warning: Starting HotReload took  0.1s.
+[2020.06.26-07.14.19:846][906]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 5:14:19 PM
+[2020.06.26-07.14.19:848][906]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-07.14.19:848][906]CompilerResultsLog: Parsing headers for ToonTanksEditor
+[2020.06.26-07.14.19:849][906]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\ToonTanks.uproject" "C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\ToonTanksEditor\Development\ToonTanksEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\TheK-B1000\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.06.26-07.14.19:850][906]CompilerResultsLog: Reflection code generated for ToonTanksEditor in 15.2007912 seconds
+[2020.06.26-07.14.19:850][906]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-07.14.19:850][906]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-07.14.19:850][906]CompilerResultsLog: Building 6 actions with 4 processes...
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   [1/6] TankGameModeBase.cpp
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   c1xx: error C3859: Failed to create virtual memory for PCH
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   c1xx: note: the system returned code 1455: The paging file is too small for this operation to complete.
+[2020.06.26-07.14.19:850][906]CompilerResultsLog: 
+[2020.06.26-07.14.19:850][906]CompilerResultsLog: 
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   c1xx: note: please visit https://aka.ms/pch-help for more details
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   c1xx: fatal error C1076: compiler limit: internal heap limit reached
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   [2/6] HealthComponent.cpp
+[2020.06.26-07.14.19:850][906]CompilerResultsLog:   [3/6] TankGameModeBase.gen.cpp
+[2020.06.26-07.14.19:850][906]LogMainFrame: MainFrame: Module compiling took 47.949 seconds
+[2020.06.26-07.14.19:850][906]Warning: HotReload failed, recompile failed
+[2020.06.26-07.14.30:589][938]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-07.14.54:878][189]Candidate modules for hot reload:
+[2020.06.26-07.14.54:879][189]  ToonTanks
+[2020.06.26-07.14.54:879][189]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ToonTanks,1356 ToonTanksEditor Win64 Development -Project="C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject" "C:/Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/ToonTanks.uproject"  -IgnoreJunk]
+[2020.06.26-07.14.54:909][189]Warning: Starting HotReload took  0.1s.
+[2020.06.26-07.15.13:289][487]CompilerResultsLog: New page: Compilation - Jun 25, 2020, 5:15:13 PM
+[2020.06.26-07.15.13:289][487]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame).
+[2020.06.26-07.15.13:289][487]CompilerResultsLog: Building ToonTanksEditor...
+[2020.06.26-07.15.13:289][487]CompilerResultsLog: Using Visual Studio 2019 14.25.28614 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.06.26-07.15.13:290][487]CompilerResultsLog: Building 4 actions with 4 processes...
+[2020.06.26-07.15.13:290][487]CompilerResultsLog:   [1/4] TankGameModeBase.cpp
+[2020.06.26-07.15.13:290][487]CompilerResultsLog:   [2/4] UE4Editor-ToonTanks-1356.lib
+[2020.06.26-07.15.13:290][487]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1356.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1356.exp
+[2020.06.26-07.15.13:290][487]CompilerResultsLog:   [3/4] UE4Editor-ToonTanks-1356.dll
+[2020.06.26-07.15.13:290][487]CompilerResultsLog:      Creating library C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1356.suppressed.lib and object C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\UE4Editor-ToonTanks-1356.suppressed.exp
+[2020.06.26-07.15.13:290][487]CompilerResultsLog:   [4/4] ToonTanksEditor.target
+[2020.06.26-07.15.13:290][487]CompilerResultsLog: Total time in Parallel executor: 15.74 seconds
+[2020.06.26-07.15.13:290][487]CompilerResultsLog: Total execution time: 17.96 seconds
+[2020.06.26-07.15.13:290][487]LogMainFrame: MainFrame: Module compiling took 18.434 seconds
+[2020.06.26-07.15.14:750][487]LogContentBrowser: Native class hierarchy updated for 'ToonTanks' in 0.0007 seconds. Added 6 classes and 6 folders.
+[2020.06.26-07.15.14:757][487]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.06.26-07.15.15:173][487]LogContentBrowser: Native class hierarchy populated in 0.0319 seconds. Added 3432 classes and 826 folders.
+[2020.06.26-07.15.15:173][487]Display: HotReload took 20.3s.
