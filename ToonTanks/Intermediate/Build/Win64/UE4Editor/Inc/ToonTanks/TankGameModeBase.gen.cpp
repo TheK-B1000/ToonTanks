@@ -104,6 +104,10 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PlayerTank_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PlayerTank;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StartDelay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_StartDelay;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -132,8 +136,17 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank = { "PlayerTank", nullptr, (EPropertyFlags)0x0040000000020015, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankGameModeBase, PlayerTank), Z_Construct_UClass_APawnTank_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "GameLoop" },
+		{ "ModuleRelativePath", "GameModes/TankGameModeBase.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay = { "StartDelay", nullptr, (EPropertyFlags)0x0040000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ATankGameModeBase, StartDelay), METADATA_PARAMS(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATankGameModeBase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_PlayerTank,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATankGameModeBase_Statics::NewProp_StartDelay,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATankGameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATankGameModeBase>::IsAbstract,
@@ -162,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeTankGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATankGameModeBase, 267354055);
+	IMPLEMENT_CLASS(ATankGameModeBase, 2279828938);
 	template<> TOONTANKS_API UClass* StaticClass<ATankGameModeBase>()
 	{
 		return ATankGameModeBase::StaticClass();

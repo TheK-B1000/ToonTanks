@@ -28,6 +28,9 @@ private:
 	int32 TargetTurrets = 0;
 	int32 GetTargetTurretCount();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "GameLoop", meta = (AllowPrivateAccess = "true"))
+	int StartDelay = 3;
+
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Player", meta = (AllowPrivateAccess = "true"))
 	APawnTank* PlayerTank;
 

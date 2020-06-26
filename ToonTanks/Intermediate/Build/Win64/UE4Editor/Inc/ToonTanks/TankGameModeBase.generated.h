@@ -69,6 +69,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATankGameModeBase); \
 
 
 #define ToonTanks_Source_ToonTanks_GameModes_TankGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__StartDelay() { return STRUCT_OFFSET(ATankGameModeBase, StartDelay); } \
 	FORCEINLINE static uint32 __PPO__PlayerTank() { return STRUCT_OFFSET(ATankGameModeBase, PlayerTank); }
 
 
