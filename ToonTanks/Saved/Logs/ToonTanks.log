@@ -742,3 +742,121 @@ It is recommended that you free some space to avoid issues such as crashed and d
 [2020.06.26-06.34.05:114][847]LogEditorTransaction: Undo Edit Left
 [2020.06.26-06.34.05:378][851]Cmd: TRANSACTION UNDO
 [2020.06.26-06.34.05:378][851]LogEditorTransaction: Undo Move Anchor
+[2020.06.26-06.35.17:751][326]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.35.17:835][326]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2020.06.26-06.35.18:283][339]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart7BFE5DDD471AAA23DB7562A09FC757BD.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.35.18:303][339]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.35.18:304][339]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.35.33:312][673]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.35.33:379][673]LogUObjectHash: Compacting FUObjectHashTables data took   5.00ms
+[2020.06.26-06.35.33:815][685]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartD7FFEC104C5691855C5B6EA3A5BA349C.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.35.33:840][685]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.35.33:840][685]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.35.45:726][989]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.35.45:789][989]LogUObjectHash: Compacting FUObjectHashTables data took   6.64ms
+[2020.06.26-06.35.46:329][  6]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartF6CFA9D240DAB4D7AF3FA7AE89DC2F8E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.35.46:356][  6]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.35.46:356][  6]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.35.59:469][150]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.35.59:566][150]LogUObjectHash: Compacting FUObjectHashTables data took  10.28ms
+[2020.06.26-06.36.00:060][157]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart03EB346646AA4C67EC430CB2DB6A68C8.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.36.00:087][157]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.36.00:087][157]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.36.17:418][532]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.36.17:499][532]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2020.06.26-06.36.18:692][584]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartE202B3E54D6F769ABEB3F9A21BC996D0.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.36.18:714][584]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.36.18:714][584]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.36.38:690][719]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.37.22:352][334]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.37.22:401][334]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.06.26-06.37.22:800][353]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart8F4263BC4E5E7B2A837F52B933DC0BA4.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.37.22:821][353]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.37.22:821][353]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.37.44:899][200]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.37.44:944][200]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2020.06.26-06.37.45:401][223]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart0292B992486275741905A0AAF8086DE9.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.37.45:422][223]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.37.45:422][223]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.38.16:624][ 50]BlueprintLog: New page: Collapse to Function
+[2020.06.26-06.38.35:453][772]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartA1E48687497BFA0AE63E558EB3DBE2A3.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.38.35:483][772]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.38.35:483][772]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.38.56:325][362]LogSlate: Took 0.001181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.06.26-06.39.31:295][735]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.39.48:351][505]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.40.07:246][518]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.40.07:303][518]LogUObjectHash: Compacting FUObjectHashTables data took   5.74ms
+[2020.06.26-06.40.07:815][543]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartFD11D2BF4F200E1E0ABB61814E5B1B0A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.40.07:835][543]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.40.07:835][543]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.40.24:027][250]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.40.24:071][250]LogUObjectHash: Compacting FUObjectHashTables data took   4.89ms
+[2020.06.26-06.40.24:741][284]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart090299C24BA59405A50AB98AB9546F24.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.40.24:763][284]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.40.24:763][284]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.40.36:305][961]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.40.36:349][961]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2020.06.26-06.40.36:817][983]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartA6EF9AA5429274FB04C3168C28D382F4.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.40.36:839][983]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.40.36:839][983]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.41.37:826][411]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartDA40D22C47C03E8DE0217499EF67DD4A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.41.37:844][411]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.41.37:844][411]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.41.44:066][772]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.41.44:115][772]LogUObjectHash: Compacting FUObjectHashTables data took   4.04ms
+[2020.06.26-06.41.44:537][790]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart5B61D9774F4D1FE584AD9FA1EC3425AB.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.41.44:561][790]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.41.44:561][790]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.42.14:179][  1]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.42.23:552][436]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.42.23:599][436]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2020.06.26-06.42.24:090][459]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartE958AC6C4C5CEEB99D2AC5989F5E443A.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.42.24:115][459]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.42.24:115][459]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.42.50:331][701]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.43.00:656][119]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartF594A63D4BB8EEBC0AFE2DBB9EE350AF.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.43.00:675][119]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.43.00:675][119]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.43.13:224][549]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.43.13:282][549]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.06.26-06.43.13:812][571]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStartF7C51D7043BD67338C6404AD9D61CA7B.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.43.13:835][571]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.43.13:835][571]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.43.21:392][839]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart881823EE43DD59A14B575BBADBF76928.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.43.21:410][839]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.43.21:410][839]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.43.33:229][366]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.43.33:281][366]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
+[2020.06.26-06.43.33:753][388]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart99AA93D24BFFD25D22A2B0A87EA8B479.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.43.33:770][388]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.43.33:770][388]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.43.48:457][774]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.43.48:548][774]LogUObjectHash: Compacting FUObjectHashTables data took   8.94ms
+[2020.06.26-06.43.48:952][789]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart4679018F457BB6E5DF75198F2E27C740.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.43.48:977][789]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.43.48:978][789]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.43.59:510][ 32]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.44.13:447][524]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.44.13:512][524]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.06.26-06.44.13:933][543]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart3DDC385548B36F67A8F41C82392FB948.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.44.13:954][543]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.44.13:954][543]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.44.25:479][825]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.44.25:531][825]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2020.06.26-06.44.25:906][841]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart465148404312A43F671A448D13E17CC6.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.44.25:927][841]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.44.25:927][841]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.45.01:760][465]BlueprintLog: New page: Compile WBP_GameStart
+[2020.06.26-06.45.01:839][465]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2020.06.26-06.45.02:214][476]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/WBP_GameStart72F8484A496C798D6F951FB3D2C4F73E.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Blueprints/Widgets/WBP_GameStart.uasset'
+[2020.06.26-06.45.02:240][476]AssetCheck: New page: Asset Save: WBP_GameStart
+[2020.06.26-06.45.02:240][476]LogContentValidation: Display: Validating WidgetBlueprint /Game/Blueprints/Widgets/WBP_GameStart.WBP_GameStart
+[2020.06.26-06.45.06:832][517]LogTemp: IOS device listing is disabled (too many failed attempts)!
+[2020.06.26-06.45.15:176][588]LogUObjectHash: Compacting FUObjectHashTables data took   7.93ms
+[2020.06.26-06.45.15:251][588]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main4CFA310B4A058FD478A2E49CA7D5E663.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main.umap'
+[2020.06.26-06.45.15:290][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_BuiltData" FILE="../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset" SILENT=true
+[2020.06.26-06.45.15:348][588]LogSavePackage: Moving '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Saved/Main_BuiltDataF4EE68DC4E1574DDC9CA06A72B3CCD94.tmp' to '../../../../../../Users/TheK-B1000/Desktop/The K-B Folder/Unreal/repos/TankGame/ToonTanks/Content/Maps/Main_BuiltData.uasset'
+[2020.06.26-06.45.15:382][588]AssetCheck: New page: Asset Save: multiple assets
+[2020.06.26-06.45.15:383][588]LogContentValidation: Display: Validating World /Game/Maps/Main.Main
+[2020.06.26-06.45.15:383][588]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Maps/Main_BuiltData.Main_BuiltData
