@@ -25,7 +25,10 @@ AProjectileBase::AProjectileBase()
 	ParticleTrail = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle Trail"));
 	ParticleTrail->SetupAttachment(RootComponent);
 
-	InitialLifeSpan = 3.0f;
+	//InitialLifeSpan = 3.0f;
+	// TODO replace with a Bounce count.
+	// The bullet needs to bounce at least 2 times before destroying itself on the third time. 
+	// The bullet cannot bounce off the enemy tank. 
 }
 
 void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
@@ -56,8 +59,7 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 		{
 			GetWorld()->GetFirstPlayerController()->PlayerCameraManager->PlayCameraShake(HitShake, 1);
 		}
-
-		Destroy();
+		
 	}
 }
 

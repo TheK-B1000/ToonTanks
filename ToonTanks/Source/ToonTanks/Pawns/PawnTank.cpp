@@ -27,12 +27,11 @@ void APawnTank::BeginPlay()
 void APawnTank::HandleDestruction()
 {
 	Super::HandleDestruction();
-	// Hide Player -- TODO create new function that can do this.
 
-
-		bAlive = false;
-		SetActorHiddenInGame(true);
-		SetActorTickEnabled(false);
+	// Hide Tank when destroyed
+	bAlive = false;
+	SetActorHiddenInGame(true);
+	SetActorTickEnabled(false);
 
 }
 
