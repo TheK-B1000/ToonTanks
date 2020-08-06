@@ -1,5 +1,0 @@
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Development\ToonTanks\Definitions.ToonTanks.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Source\ToonTanks/Components/HealthComponent.h
-C:\Users\TheK-B1000\Desktop\The K-B Folder\Unreal\repos\TankGame\ToonTanks\Intermediate\Build\Win64\UE4Editor\Inc\ToonTanks\HealthComponent.generated.h
