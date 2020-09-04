@@ -25,16 +25,18 @@ AProjectileBase::AProjectileBase()
 	ParticleTrail->SetupAttachment(RootComponent);
 	// InitialLifeSpan = 3.0f;
 
-	bShouldBounce = true;
+ 
+	bshouldBounce = ProjectileMovement->bShouldBounce = true; // Bullet should always bounce once unless it hits an enemy tank or mine
 }
 
 // Called when the game starts or when spawned
 void AProjectileBase::BeginPlay() 
 {
 	Super::BeginPlay();
-
 	UGameplayStatics::PlaySoundAtLocation(this, LaunchSound, GetActorLocation());	
 }
+
+
 
 void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit) 
 {
@@ -48,29 +50,40 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 	// If the other actor ISN'T self OR Owner AND exists, then apply damage.
 	if(OtherActor && OtherActor != this && OtherActor != MyOwner)
 	{
-		// if the projectile comes in contact with a wall or destructible wall.
-		/*if (OnHit(StaticMesh * Wall, StaticMesh * DestructibleWall) == true )
-		{
-			// OnProjectileBounce();
-			// if the projectile hits the wall a second time it destroys itself
-		// Destroy();
-		}
-		// else apply damage
-		else
-		{*/
+		// if projectile hits enemy tank or
 			UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
 			UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
 			UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
 			GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitShake);
 
 			// Ball should bounce from walls and never lose any velocity. 
-			//Destroy();
-		//}
+			WhenToDestroy();
+
 	}	
 
 
 }
 
+void AProjectileBase::WhenToDestroy()
+{
+
+	// Control when the projectile destroys itself depending on how many times it bouncies, if it hits a mine, enemy tank, or player tank.
+	if (!bshouldBounce)
+	{
+		Destroy();
+	}
+	else
+	{
+		// bounce off wall one time
+	// bShouldBounce = false
+	// destroy itself when it hits wall again
+	}
+
+
+
+}
+
+// DONE 
 // You need set up ball with UProjectileMovementComponent where bShouldBounce is true, 
 // Bounciness is 1.0 and Friction is 0.0. Then you need set up walls with PhysicalMaterial where Friction is 0.0, Restituation is 1.0,
 // Restituation Combine Mode is Max, Restituation Combine Mode is checked.
