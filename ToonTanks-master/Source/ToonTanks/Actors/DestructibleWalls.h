@@ -6,6 +6,10 @@
 #include "GameFramework/Actor.h"
 #include "DestructibleWalls.generated.h"
 
+class UCapsuleComponent;
+class AProjectileBase;
+class UHealthComponent;
+
 UCLASS()
 class TOONTANKS_API ADestructibleWalls : public AActor
 {

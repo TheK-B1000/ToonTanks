@@ -37,6 +37,12 @@ private:
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	TSubclassOf<UCameraShake> HitShake;
 
+	// Ball should bounce from walls and never lose any velocity. 
+	UPROPERTY(EditAnywhere, Category = "Bounce")
+	bool bShouldBounce;
+
+
+
 	// FUNCTIONS
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);

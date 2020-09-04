@@ -24,6 +24,8 @@ AProjectileBase::AProjectileBase()
 	ParticleTrail = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle Trail"));
 	ParticleTrail->SetupAttachment(RootComponent);
 	// InitialLifeSpan = 3.0f;
+
+	bShouldBounce = true;
 }
 
 // Called when the game starts or when spawned
@@ -60,15 +62,16 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 			UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
 			UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
 			GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitShake);
-			Destroy();
+
+			// Ball should bounce from walls and never lose any velocity. 
+			//Destroy();
 		//}
 	}	
 
 
 }
 
-
-// Ball should bounce from walls and never lose any velocity. You need set up ball with UProjectileMovementComponent where bShouldBounce is true, 
+// You need set up ball with UProjectileMovementComponent where bShouldBounce is true, 
 // Bounciness is 1.0 and Friction is 0.0. Then you need set up walls with PhysicalMaterial where Friction is 0.0, Restituation is 1.0,
 // Restituation Combine Mode is Max, Restituation Combine Mode is checked.
 
