@@ -23,11 +23,11 @@ AProjectileBase::AProjectileBase()
 
 	ParticleTrail = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Particle Trail"));
 	ParticleTrail->SetupAttachment(RootComponent);
-	InitialLifeSpan = 3.0f;
+	// InitialLifeSpan = 3.0f;
 }
 
 // Called when the game starts or when spawned
-void AProjectileBase::BeginPlay()
+void AProjectileBase::BeginPlay() 
 {
 	Super::BeginPlay();
 
@@ -46,9 +46,30 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 	// If the other actor ISN'T self OR Owner AND exists, then apply damage.
 	if(OtherActor && OtherActor != this && OtherActor != MyOwner)
 	{
-		UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
-		UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
-		UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
-		Destroy();
+		// if the projectile comes in contact with a wall or destructible wall.
+		/*if (OnHit(StaticMesh * Wall, StaticMesh * DestructibleWall) == true )
+		{
+			// OnProjectileBounce();
+			// if the projectile hits the wall a second time it destroys itself
+		// Destroy();
+		}
+		// else apply damage
+		else
+		{*/
+			UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
+			UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
+			UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
+			GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitShake);
+			Destroy();
+		//}
 	}	
+
+
 }
+
+
+// Ball should bounce from walls and never lose any velocity. You need set up ball with UProjectileMovementComponent where bShouldBounce is true, 
+// Bounciness is 1.0 and Friction is 0.0. Then you need set up walls with PhysicalMaterial where Friction is 0.0, Restituation is 1.0,
+// Restituation Combine Mode is Max, Restituation Combine Mode is checked.
+
+
