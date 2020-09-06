@@ -6,6 +6,7 @@
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "Particles/ParticleSystemComponent.h"
+#include "CollisionQueryParams.h"
 
 // Sets default values
 AProjectileBase::AProjectileBase()
@@ -27,6 +28,7 @@ AProjectileBase::AProjectileBase()
 
  
 	bshouldBounce = ProjectileMovement->bShouldBounce = true; // Bullet should always bounce once unless it hits an enemy tank or mine
+	NumberOfHits = 0; // Track of hits to know when to destroy
 }
 
 // Called when the game starts or when spawned
@@ -47,30 +49,36 @@ void AProjectileBase::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 	{
 		return;
 	}
-	// If the other actor ISN'T self OR Owner AND exists, then apply damage.
-	if(OtherActor && OtherActor != this && OtherActor != MyOwner)
+	if (OtherActor)
 	{
-		// if projectile hits enemy tank or
+		NumberOfHits++;
+		if (OtherActor->ActorHasTag("Destructible"))
+		{
 			UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwner->GetInstigatorController(), this, DamageType);
 			UGameplayStatics::SpawnEmitterAtLocation(this, HitParticle, GetActorLocation());
 			UGameplayStatics::PlaySoundAtLocation(this, HitSound, GetActorLocation());
 			GetWorld()->GetFirstPlayerController()->ClientPlayCameraShake(HitShake);
+			if (OtherActor->ActorHasTag("Destructible"))
+			{
+				bshouldBounce = false;
+				Destroy();
+			}
+		}
+	}
 
-			// Ball should bounce from walls and never lose any velocity. 
-			WhenToDestroy();
-
-	}	
-
-
+	if (NumberOfHits == 2)
+	{
+		bshouldBounce = false;
+		Destroy();
+	}
 }
 
 void AProjectileBase::WhenToDestroy()
 {
-
 	// Control when the projectile destroys itself depending on how many times it bouncies, if it hits a mine, enemy tank, or player tank.
-	if (!bshouldBounce)
+	if ( !bshouldBounce)
 	{
-		Destroy();
+		//Destroy();
 	}
 	else
 	{

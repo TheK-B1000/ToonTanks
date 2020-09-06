@@ -38,6 +38,7 @@ private:
 	TSubclassOf<UCameraShake> HitShake;
 
 	bool bshouldBounce;
+	int NumberOfHits;
 
 	// FUNCTIONS
 	UFUNCTION()

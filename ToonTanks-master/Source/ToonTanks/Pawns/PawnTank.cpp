@@ -7,6 +7,8 @@
 
 APawnTank::APawnTank()
 {
+    this->ActorHasTag("Destructible");
+
     SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
     SpringArm->SetupAttachment(RootComponent);
 

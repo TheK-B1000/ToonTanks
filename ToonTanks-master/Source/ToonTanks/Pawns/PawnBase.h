@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
+#include "GameFramework/Actor.h"
 #include "PawnBase.generated.h"
 
 class UCapsuleComponent;
@@ -37,6 +38,7 @@ private:
 	USoundBase* DeathSound;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	TSubclassOf<UCameraShake> DeathShake;
+
 
 public:
 	// Sets default values for this pawn's properties
