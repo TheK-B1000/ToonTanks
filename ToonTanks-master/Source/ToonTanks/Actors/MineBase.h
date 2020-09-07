@@ -4,40 +4,39 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "DestructibleWalls.generated.h"
+#include "MineBase.generated.h"
 
-class UBoxComponent;
-class AProjectileBase;
-class UHealthComponent;
+class USphereComponent;
 
 UCLASS()
-class TOONTANKS_API ADestructibleWalls : public AActor
+class TOONTANKS_API AMineBase : public AActor
 {
 	GENERATED_BODY()
 	
 private:
 	// COMPONENTS
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UBoxComponent* BoxComp;
+	USphereComponent* SphereComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UStaticMeshComponent* BaseMesh;
+	UStaticMeshComponent* MineMesh;
 
-	// VARIABLES
+	// PROJECTILES
 	UPROPERTY(EditAnywhere, Category = "Effects")
-	UParticleSystem* DestroyedParticle;
+	UParticleSystem* Explosion;
 	UPROPERTY(EditAnywhere, Category = "Effects")
-	USoundBase* DestroyedSound;
-
-	bool bWallDestroyed;
+	USoundBase* ExplosionSound;
 
 	// FUNCTIONS
-	bool ApplyRadialDamage(const UObject* WorldContextObject, float BaseDamage, const FVector& Origin, float DamageRadius, TSubclassOf<class UDamageType> DamageTypeClass, const TArray<AActor*>& IgnoreActors, AActor* DamageCauser = NULL, AController* InstigatedByController = NULL, bool bDoFullDamage = false, ECollisionChannel DamagePreventionChannel = ECC_Visibility);
+	/** called when something enters the sphere component */
+	UFUNCTION()
+	void OnCollision(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit);
 
+	// VARIABLES
+	bool bLastSeconds;
 
 public:	
 	// Sets default values for this actor's properties
-	ADestructibleWalls();
-
+	AMineBase();
 	virtual void HandleDestruction();
 
 protected:
@@ -47,6 +46,10 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	void InProximity();
+
+	void Countdown();
 
 
 
