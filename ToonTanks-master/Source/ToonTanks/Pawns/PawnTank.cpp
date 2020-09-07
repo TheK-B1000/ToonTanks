@@ -8,12 +8,6 @@
 APawnTank::APawnTank()
 {
     this->ActorHasTag("Destructible");
-
-    SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("Spring Arm"));
-    SpringArm->SetupAttachment(RootComponent);
-
-    Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
-    Camera->SetupAttachment(SpringArm);
 }
 
 // Called when the game starts or when spawned
