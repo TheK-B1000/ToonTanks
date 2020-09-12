@@ -21,6 +21,9 @@ APawnBase::APawnBase()
 	BaseMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Base Mesh"));
 	BaseMesh->SetupAttachment(RootComponent);
 
+	MineSpawnPoint = CreateDefaultSubobject<USceneComponent>(TEXT("Mine Spawn Point"));
+	MineSpawnPoint->SetupAttachment(BaseMesh);
+
 	TurretMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Turret Mesh"));
 	TurretMesh->SetupAttachment(BaseMesh);
 
@@ -38,6 +41,18 @@ void APawnBase::RotateTurret(FVector LookAtTarget)
 
 	FRotator TurretRotation = FVector(LookAtTargetCleaned - StartLocation).Rotation();
 	TurretMesh->SetWorldRotation(TurretRotation);
+}
+
+void APawnBase::DeployMine()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Mine Deployed!"));
+	if (MineClass)
+	{
+		FVector SpawnLocation = MineSpawnPoint->GetComponentLocation();
+		FRotator SpawnRotation = MineSpawnPoint->GetComponentRotation();
+
+		AMineBase* Mine = GetWorld()->SpawnActor<AMineBase>(MineClass, SpawnLocation, SpawnRotation);
+	}
 }
 
 void APawnBase::Fire() 

@@ -33,6 +33,8 @@ private:
 
 	// VARIABLES
 	bool bLastSeconds;
+	float MineWasDeployed;
+	float MineDelay = 2.0f;
 
 public:	
 	// Sets default values for this actor's properties

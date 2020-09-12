@@ -5,10 +5,12 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "GameFramework/Actor.h"
+#include "ToonTanks/Actors/MineBase.h"
 #include "PawnBase.generated.h"
 
 class UCapsuleComponent;
 class AProjectileBase;
+class AMineBase;
 class UHealthComponent;
 
 UCLASS()
@@ -27,11 +29,15 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+	USceneComponent* MineSpawnPoint;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UHealthComponent* HealthComponent;
 
 	// VARIABLES
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Projectile Type", meta = (AllowPrivateAccess = "true"))
 	TSubclassOf<AProjectileBase> ProjectileClass;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Mine Type", meta = (AllowPrivateAccess = "true"))
+	TSubclassOf<AMineBase> MineClass;
 	UPROPERTY(EditAnywhere, Category = "Effects")
 	UParticleSystem* DeathParticle;
 	UPROPERTY(EditAnywhere, Category = "Effects")
@@ -50,6 +56,6 @@ public:
 protected:
 
 	void RotateTurret(FVector LookAtTarget);
-
+	void DeployMine();
 	void Fire();
 };

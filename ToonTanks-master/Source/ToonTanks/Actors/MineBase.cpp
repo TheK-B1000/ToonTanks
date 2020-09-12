@@ -36,19 +36,28 @@ AMineBase::AMineBase()
 void AMineBase::BeginPlay()
 {
 	Super::BeginPlay();
-	HandleDestruction();
 }
 
 // Called every frame
 void AMineBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	MineWasDeployed = GetWorld()->GetTimeSeconds();
 
+	if (GetWorld()->GetTimeSeconds() - MineWasDeployed > MineDelay)
+	{
+		// Spawn emiter
+		UGameplayStatics::SpawnEmitterAtLocation(this, Explosion, GetActorLocation());
+		// Destroy mine
+		Destroy();
+		// play sound
+		UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation());
+	}
 }
 
 void AMineBase::OnCollision(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit)
 {
-		HandleDestruction();
+		//HandleDestruction();
 }
 
 void AMineBase::InProximity()
@@ -67,11 +76,9 @@ void AMineBase::Countdown()
 
 void AMineBase::HandleDestruction()
 {
-	// Spawn emiter
-	UGameplayStatics::SpawnEmitterAtLocation(this, Explosion, GetActorLocation());
-	// Destroy mine
-	Destroy();
-	// play sound
-	UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation());
+	//if (TimeAlive > 20.0f)
+	//{
+		
+	//}
 }
 

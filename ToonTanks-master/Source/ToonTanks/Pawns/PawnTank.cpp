@@ -58,6 +58,7 @@ void APawnTank::SetupPlayerInputComponent(UInputComponent *PlayerInputComponent)
     PlayerInputComponent->BindAxis("MoveForward", this, &APawnTank::CalculateMoveInput);
     PlayerInputComponent->BindAxis("Turn", this, &APawnTank::CalculateRotateInput);
     PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &APawnTank::Fire);
+    PlayerInputComponent->BindAction("Mine", IE_Pressed, this, &APawnTank::DeployMine);
    
 }
 
