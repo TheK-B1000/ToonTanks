@@ -44,6 +44,15 @@ void AMineBase::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 	MineWasDeployed = GetWorld()->GetTimeSeconds();
 
+	
+}
+
+void AMineBase::OnCollision(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit)
+{
+
+
+
+
 	if (GetWorld()->GetTimeSeconds() - MineWasDeployed > MineDelay)
 	{
 		// Spawn emiter
@@ -53,11 +62,6 @@ void AMineBase::Tick(float DeltaTime)
 		// play sound
 		UGameplayStatics::PlaySoundAtLocation(this, ExplosionSound, GetActorLocation());
 	}
-}
-
-void AMineBase::OnCollision(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComponent, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& Hit)
-{
-		//HandleDestruction();
 }
 
 void AMineBase::InProximity()
