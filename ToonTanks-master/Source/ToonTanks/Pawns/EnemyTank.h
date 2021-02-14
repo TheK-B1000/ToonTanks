@@ -26,7 +26,7 @@ private:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
 		float FireRate = 2.0f;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Combat", meta = (AllowPrivateAccess = "true"))
-		float FireRange = 500.0f;
+		float FireRange = 2000.0f;
 
 	// Create our own FTimerHandle
 	FTimerHandle FireRateTimerHandle;
